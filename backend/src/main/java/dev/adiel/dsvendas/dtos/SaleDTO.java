@@ -74,5 +74,14 @@ public class SaleDTO implements Serializable {
 
 	public void setDate(LocalDate date) {
 		this.date = date;
+	}
+
+	public SellerDTO getSeller() {
+		return seller;
+	}
+
+	public void setSeller(SellerDTO seller) {
+		this.seller = seller;
 	}	
+	
 }
